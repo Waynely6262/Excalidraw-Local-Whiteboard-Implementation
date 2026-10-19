@@ -27,4 +27,5 @@ npm run dev
 
 
 
+## Note
 The framework of this repository was made using Claude Sonnet 5.5
