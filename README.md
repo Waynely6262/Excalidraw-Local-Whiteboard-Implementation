@@ -1,16 +1,30 @@
-# React + Vite
+# Excalidraw-Local-Whiteboard-Implementation
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## About
+This project integrates the open-sourced Excalidraw program with, currently,
+an auto-save which writes the file to the folder you selected. It features a "New File" button 
+which moves onto a new save target and wipes your current work, and a "Branch" button
+which moves onto a new save target without wiping your current board.
 
-Currently, two official plugins are available:
+## Dependencies
+This program depends on Excalidraw, and uses Vite. These should be automatically installed once you run `npm install`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+To access the running build, visit `http://localhost:5173/` on your browser.
+**You may need to use Chrome or Microsoft Edge**
 
-## React Compiler
+The following are the steps to install (using terminal):
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+git clone https://github.com/Waynely6262/Excalidraw-Local-Whiteboard-Implementation/
+cd Excalidraw-Local-Whiteboard-Implementation
+npm install
+npm run dev
+```
 
-## Expanding the Oxlint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+
+
+
+
+The framework of this repository was made using Claude Sonnet 5.5
